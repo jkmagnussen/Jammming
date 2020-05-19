@@ -1,7 +1,26 @@
+@font-face {
+  font-family: "Brush Script MT";
+  src: url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.eot");
+  src: url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/33bc06ea126d3ff79886277122f1f510.svg#Brush Script MT")
+      format("svg");
+}
+
 body,
 html,
 #root {
-  height: 100%;
+  height: 100vh;
+  background-image: url("./Media/headphones.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 html {
@@ -10,11 +29,11 @@ html {
 
 h1 {
   padding: 0.77rem 0;
-  background-color: #010c3f;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.88rem;
+  font-family: "Brush Script MT";
+  font-size: 5.88rem;
   color: #fff;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 h1 .highlight {
@@ -28,11 +47,9 @@ h2 {
 
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
-  background-image: url("./Media/background_photo_desktop.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  padding-left: 5vw;
+  padding-right: 5vw;
+
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   color: #fff;

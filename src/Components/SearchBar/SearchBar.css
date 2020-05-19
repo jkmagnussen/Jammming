@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 6.94rem;
-  margin-bottom: 6.33rem;
+  padding-top: 1.94rem;
+  margin-bottom: 2.53rem;
 }
 
 .SearchBar input {
@@ -15,6 +15,8 @@
   color: #010c3f;
   text-align: center;
   font-size: 1rem;
+  opacity: 0.5;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .SearchBar input:focus {
@@ -26,7 +28,7 @@
   width: 8.11rem;
   padding: 0.77rem 0;
   border-radius: 54px;
-  background-color: #010c3f;
+  background-color: rgba(1, 12, 63, 0.7);
   text-align: center;
   font-size: 0.833rem;
   transition: background-color 0.25s;

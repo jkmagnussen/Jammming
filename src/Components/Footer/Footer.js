@@ -19,20 +19,20 @@ class Footer extends React.Component {
             src={home}
             alt="home"
             style={{
-              width: "10vw",
-              height: "10vw",
+              width: "10%",
+              height: "10%",
               padding: 20,
             }}
           />
         </a>
-        <a href="https://github.com/jkmagnussen">
+        <a href="https://github.com/jkmagnussen/Jammming">
           <img
             className="github"
             src={github}
             alt="github"
             style={{
-              width: "10vw",
-              height: "10vw",
+              width: "10%",
+              height: "10%",
               padding: 20,
             }}
           />
@@ -44,8 +44,8 @@ class Footer extends React.Component {
             src={linkedIn}
             alt="linkedIn"
             style={{
-              width: "10vw",
-              height: "10vw",
+              width: "10%",
+              height: "10%",
               padding: 20,
             }}
           />
