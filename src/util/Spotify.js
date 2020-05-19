@@ -3,7 +3,7 @@ require("dotenv").config();
 let accessToken;
 
 const clientId = process.env.REACT_APP_SPOTIFY_ACCESS_TOKEN;
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://jkmagnussen-playlister.netlify.app/";
 
 const Spotify = {
   getAccessToken() {

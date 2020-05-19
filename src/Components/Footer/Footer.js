@@ -19,9 +19,8 @@ class Footer extends React.Component {
             src={home}
             alt="home"
             style={{
-              width: "10%",
-              height: "10%",
-              padding: 20,
+              width: "7vw",
+              padding: "3%",
             }}
           />
         </a>
@@ -31,9 +30,8 @@ class Footer extends React.Component {
             src={github}
             alt="github"
             style={{
-              width: "10%",
-              height: "10%",
-              padding: 20,
+              width: "7vw",
+              padding: "3%",
             }}
           />
         </a>
@@ -44,9 +42,8 @@ class Footer extends React.Component {
             src={linkedIn}
             alt="linkedIn"
             style={{
-              width: "10%",
-              height: "10%",
-              padding: 20,
+              width: "7vw",
+              padding: "3%",
             }}
           />
         </a>
