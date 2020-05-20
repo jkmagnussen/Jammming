@@ -2,6 +2,7 @@ import React from "react";
 import "./Track.css";
 
 import PlayPause from "./Media/playPause.png";
+import PlayPause2 from "./Media/PlayPause2.png";
 
 class Track extends React.Component {
   constructor(props) {
@@ -29,6 +30,26 @@ class Track extends React.Component {
         <button class="Track-action" onClick={this.addTrack}>
           +
         </button>
+      );
+    }
+  }
+
+  playingAction() {
+    if (this.state.playing) {
+      return (
+        <img
+          className="playpause"
+          src={PlayPause2}
+          onClick={this.state.playing ? this.pauseSong : this.playSong}
+        />
+      );
+    } else {
+      return (
+        <img
+          className="playpause"
+          src={PlayPause}
+          onClick={this.state.playing ? this.pauseSong : this.playSong}
+        />
       );
     }
   }
@@ -63,11 +84,8 @@ class Track extends React.Component {
             {this.props.track.artist} | {this.props.track.album} |{" "}
           </p>
         </div>
-        <img
-          className="playpause"
-          src={PlayPause}
-          onClick={this.state.playing ? this.pauseSong : this.playSong}
-        />
+        {this.props.track.preview ? this.playingAction() : ""}
+
         <button class="Track-action">{this.renderAction()}</button>
       </div>
     );
